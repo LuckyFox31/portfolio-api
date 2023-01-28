@@ -13,6 +13,7 @@ A simple **NodeJS** API for portfolio project.
 | `@prisma/client` | `^4.9.0`  |
 | `dotenv`         | `^16.0.3` |
 | `jsonwebtoken`   | `^9.0.0`  |
+| `bcryptjs`       | `^2.4.3`  |
 
 ### Dev dependencies
 | Nom      | Version  |
