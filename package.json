@@ -8,5 +8,8 @@
     "Api"
   ],
   "author": "LuckyFox31",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^4.9.0"
+  }
 }
