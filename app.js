@@ -2,6 +2,8 @@ require('dotenv').config();
 
 const app = require('fastify')({logger: process.env.API_LOGGER});
 
+app.register(require('./src/routes/UserRoutes'), {prefix: '/user'});
+
 function start(){
 	try{
 		app.listen({port: process.env.API_PORT})
