@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "A simple NodeJS API for portfolio",
   "main": "app.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
   "keywords": [
     "Api"
   ],
