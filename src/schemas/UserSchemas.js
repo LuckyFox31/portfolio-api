@@ -6,14 +6,6 @@ const registerUserSchema = {
 	body: {
 		type: 'object',
 		properties: {
-			'firstname': {
-				type: 'string',
-				maxLength: 50,
-			},
-			'lastname': {
-				type: 'string',
-				maxLength: 50,
-			},
 			'email': {
 				type: 'string',
 				format: 'email',
@@ -27,8 +19,6 @@ const registerUserSchema = {
 			}
 		},
 		required: [
-			'firstname',
-			'lastname',
 			'email',
 			'password'
 		]
@@ -41,12 +31,6 @@ const registerUserSchema = {
 				user: {
 					type: 'object',
 					properties: {
-						'firstname': {
-							type: 'string',
-						},
-						'lastname': {
-							type: 'string',
-						},
 						'email': {
 							type: 'string',
 						},
